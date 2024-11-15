@@ -15,7 +15,7 @@ const password = passwordField.value;
 	} else if(!checkbox.checked){
 		localStorage.removeItem("username")
 		localStorage.removeItem("password")
-		alert("Logged in as.")
+		alert("Logged in as."+ username)
 	}
 })
 
