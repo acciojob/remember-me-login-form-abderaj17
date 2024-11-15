@@ -31,3 +31,7 @@ if(localStorage.getItem("username")&& localStorage.getItem("password")){
     alert("Logged in as "+ username);
   })
 }
+function checkExistingUser() {
+  // If the button already exists, remove it
+  const existingButton = document.querySelector('#existing');
+  if (existingButton) existingButton.remove();
